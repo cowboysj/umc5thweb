@@ -1,0 +1,106 @@
+.backgroundimg {
+  background-image: url("./img//UMC\ 뭔가\ 간지나는\ 배경1\ 2\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxWrap {
+  width: 52%;
+  height: 57%;
+  border-radius: 20px;
+  background: rgba(147, 149, 159, 0.83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  height: 20%;
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginText {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.line1 {
+  height: 1px;
+  width: 60%;
+  background-color: white;
+}
+
+.contextWrap {
+  margin-top: 2%;
+  height: 50%;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputWrap {
+  height: 40%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.id {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  margin: 5%;
+  width: 80%;
+  color: white;
+}
+.id::placeholder {
+  color: white;
+}
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 80%;
+  border: 4px;
+  background-color: rgb(39, 35, 35);
+  border-radius: 10px;
+  margin: 10%;
+}
+.buttonstyle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.footer {
+  height: 30%;
+  width: 80%;
+  border: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+  font-size: 13px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
