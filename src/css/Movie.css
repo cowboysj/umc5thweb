@@ -1,0 +1,93 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22254b;
+  height: 100vh;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+.movieWrap {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 240px;
+  margin: 10px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+}
+
+.textWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #373b69;
+  font-size: 10px;
+  color: white;
+  height: 80px;
+  padding: 5%;
+}
+
+.title {
+  width: 80%;
+
+  height: auto;
+}
+
+.rate {
+  width: 20%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.movieWrap.hovered {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* .hoverWrap {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+} */
+.hovertitle {
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  padding: 5%;
+}
+
+.overview {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  top: 50px;
+  padding: 5%;
+}
+
+.poster.hidden {
+  opacity: 0.3;
+}
+
+.textWrap.hidden {
+  opacity: 0.3;
+}
+
+.movieWrap.hovered .overview {
+  visibility: visible;
+}
