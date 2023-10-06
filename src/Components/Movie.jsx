@@ -1,6 +1,7 @@
 import { useScrollTrigger } from "@material-ui/core";
 import "../css/Movie.css";
 import { useState } from "react";
+import MovieBack from "./MovieBack";
 
 //movie 컴포넌트
 
@@ -29,12 +30,7 @@ function Movie({ data }) {
         <div className="title">{data.title}</div>
         <div className="rate">{data.vote_average}</div>
       </div>
-      {hover && (
-        <div className="hoverwrap">
-          <div className="hovertitle">{data.title}</div>
-          <div className="overview">{data.overview}</div>
-        </div>
-      )}
+      {hover && <MovieBack data={data} />}
     </div>
   );
 }
